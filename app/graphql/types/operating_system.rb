@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 Types::OperatingSystem = GraphQL::ObjectType.define do
   name 'OperatingSystem'
   description 'Operating system available for packet'
-  
+
   field :id, types.String
   field :slug, types.String
   field :name, types.String

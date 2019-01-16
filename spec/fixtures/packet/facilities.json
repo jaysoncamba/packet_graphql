@@ -1,0 +1,13 @@
+{
+  "facilities": [
+    {
+      "id": "92d199e7-3203-4df1-afb5-f16a890150ac",
+      "name": "Toronto, ON, CA",
+      "code": "yyz1",
+      "features": [
+        "baremetal",
+        "layer_2"
+      ]
+    }
+  ]
+}

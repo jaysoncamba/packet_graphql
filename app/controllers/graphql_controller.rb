@@ -13,7 +13,8 @@ class GraphqlController < ApplicationController
   private
 
   def packet_client
-    raise GraphQL::ExecutionError.new('UNAUTHORIZED') unless request.headers['X-APP-ID']
+    raise GraphQL::ExecutionError, 'UNAUTHORIZED' unless request.headers['X-APP-ID']
+
     @packet_client ||= Packet::Client.new(request.headers['X-APP-ID'])
   end
 

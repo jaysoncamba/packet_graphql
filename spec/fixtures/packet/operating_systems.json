@@ -1,0 +1,36 @@
+{
+  "operating_systems": [
+    {
+      "id": "7014aac5-b97c-4770-8a59-001b5638a4c0",
+      "slug": "freebsd_12_testing",
+      "name": "FreeBSD 12-testing",
+      "distro": "freebsd",
+      "version": "12-testing",
+      "provisionable_on": [
+        "c1.large.arm",
+        "baremetal_2a",
+        "c1.small.x86",
+        "baremetal_1",
+        "m2.xlarge.x86",
+        "s1.large.x86",
+        "baremetal_s",
+        "t1.small.x86",
+        "baremetal_0"
+      ],
+      "preinstallable": false,
+      "pricing": {},
+      "licensed": false
+    },
+    {
+      "id": "06e21644-a769-11e6-80f5-76304dec7eb7",
+      "slug": "alpine_3",
+      "name": "Alpine 3",
+      "distro": "alpine",
+      "version": "3",
+      "provisionable_on": [],
+      "preinstallable": false,
+      "pricing": {},
+      "licensed": false
+    }
+  ]
+}

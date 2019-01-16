@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # from https://github.com/howtographql/graphql-ruby/blob/master/app/graphql/types/date_time_type.rb
 module Types
   DateTime = GraphQL::ScalarType.define do
@@ -8,7 +10,7 @@ module Types
       looks like "2018-04-11T06:23:40Z"
     DESC
 
-    coerce_input ->(value, _ctx) {
+    coerce_input lambda { |value, _ctx|
       Time.zone.parse(value) if value.present?
     }
     coerce_result ->(value, _ctx) { value.utc.iso8601 }

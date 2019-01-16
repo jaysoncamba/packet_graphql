@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -19,9 +21,9 @@ gem 'puma', '~> 3.11'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'graphiql-rails', group: :development
 gem 'graphql', '1.7.4'
-gem "graphiql-rails", group: :development
-gem 'packethost', git: 'https://github.com/jaysoncamba/packet-rb.git'
+gem 'packethost', git: 'https://github.com/jaysoncamba/packet-rb.git', branch: :master
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
@@ -29,7 +31,8 @@ gem 'packethost', git: 'https://github.com/jaysoncamba/packet-rb.git'
 group :development, :test do
   gem 'pry'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'rubocop', require: false
 end
 
 group :development do
@@ -39,6 +42,15 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :test do
+  gem 'factory_bot_rails'
+  gem 'ffaker', '~> 2.7'
+  gem 'rspec-rails', '~> 3.6'
+  gem 'simplecov', require: false
+  gem 'sinatra'
+  gem 'stripe-ruby-mock'
+  gem 'webmock'
+end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]

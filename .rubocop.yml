@@ -1,0 +1,45 @@
+# This is the configuration used to check the rubocop source code.
+AllCops:
+  Exclude:
+    - 'config/**/**'
+    - 'vendor/**/*'
+    - 'tmp/**/*'
+    - 'bin/**/**'
+    - 'Rakefile'
+    - 'Gemfile'
+    - 'app/graphql/**/**'
+  TargetRubyVersion: 2.5.3
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/**'
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'test/**/*.rb'
+    - 'app/graphql/resolvers/**/**'
+    - 'app/graphql/types/**/**'
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/LineLength:
+  Max: 250
+  Exclude:
+    - 'spec/**/**'
+Metrics/ClassLength:
+  Max: 250
+
+Documentation:
+  Enabled: false
+
+Style/Lambda:
+  Include:
+    - 'app/graphql/**/*'
+  EnforcedStyle: literal
+
+Style/BlockDelimiters:
+  IgnoredMethods:
+    - it

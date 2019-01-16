@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 Types::Device = GraphQL::ObjectType.define do
   name 'Device'
   description 'Device packet object'
-  
+
   field :plan, Types::Plan
   field :operatingSystem, Types::OperatingSystem, property: :operating_system
   field :facility, Types::Facility

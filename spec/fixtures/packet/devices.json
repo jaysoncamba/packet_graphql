@@ -1,0 +1,453 @@
+{
+  "devices": [
+    {
+      "id": "3195df4f-d1c9-4171-a1aa-378456d341ee",
+      "short_id": "3195df4f",
+      "hostname": "3195df4f.packethost.net",
+      "description": null,
+      "state": "active",
+      "tags": [],
+      "image_url": null,
+      "billing_cycle": "hourly",
+      "user": "root",
+      "iqn": "iqn.2019-01.net.packet:device.3195df4f",
+      "locked": false,
+      "bonding_mode": 5,
+      "created_at": "2019-01-15T12:47:18Z",
+      "updated_at": "2019-01-15T12:48:18Z",
+      "ipxe_script_url": null,
+      "always_pxe": false,
+      "storage": null,
+      "customdata": {},
+      "operating_system": {
+        "id": "1b9b78e3-de68-466e-ba00-f2123e89c112",
+        "slug": "ubuntu_16_04",
+        "name": "Ubuntu 16.04 LTS",
+        "distro": "ubuntu",
+        "version": "16.04",
+        "provisionable_on": [
+          "baremetal_2a4",
+          "baremetal_2a5",
+          "baremetal_2a6",
+          "baremetal_5",
+          "baremetal_hua",
+          "c1.large.arm",
+          "baremetal_2a",
+          "c1.large.arm.xda",
+          "baremetal_2a2",
+          "c1.small.x86",
+          "baremetal_1",
+          "c1.xlarge.x86",
+          "baremetal_3",
+          "c2.medium.x86",
+          "d1f.optane.x86",
+          "d1p.optane.x86",
+          "g2.large.x86",
+          "m1.xlarge.x86",
+          "baremetal_2",
+          "m2.xlarge.x86",
+          "s1.large.x86",
+          "baremetal_s",
+          "t1.small.x86",
+          "baremetal_0",
+          "x1.small.x86",
+          "baremetal_1e"
+        ],
+        "preinstallable": true,
+        "pricing": {},
+        "licensed": false
+      },
+      "facility": {
+        "id": "2b70eb8f-fa18-47c0-aba7-222a842362fd",
+        "name": "Sunnyvale, CA",
+        "code": "sjc1",
+        "features": [
+          "baremetal",
+          "storage",
+          "layer_2",
+          "global_ipv4",
+          "backend_transfer"
+        ],
+        "address": {
+          "href": "#9dba11a6-0a26-4993-901b-df253713b89e"
+        },
+        "ip_ranges": [
+          "2604:1380:1000::/36",
+          "147.75.200.0/22",
+          "147.75.108.0/22",
+          "147.75.68.0/22",
+          "147.75.88.0/22"
+        ]
+      },
+      "project": {
+        "href": "/projects/ca73364c-6023-4935-9137-2132e73c20b4"
+      },
+      "ssh_keys": [
+        {
+          "href": "/ssh-keys/180c0350-9906-4eb9-94f8-f10695810001"
+        },
+        {
+          "href": "/ssh-keys/2256697a-5dc4-4e30-a04e-93c89f272333"
+        },
+        {
+          "href": "/ssh-keys/ba4a3651-8446-4763-85fa-d08d9680424a"
+        },
+        {
+          "href": "/ssh-keys/77708758-acde-44e4-8f1c-4bb59ec0f793"
+        },
+        {
+          "href": "/ssh-keys/f261d951-0b28-4cb2-bd6a-57cf2f787371"
+        },
+        {
+          "href": "/ssh-keys/9e1e4239-740a-4bd3-bbf7-1bd723af06e7"
+        },
+        {
+          "href": "/ssh-keys/964bbc0a-3a33-4391-b6c1-65b26738ac69"
+        },
+        {
+          "href": "/ssh-keys/f0cf273b-f1a0-4101-98cb-ae1fe91f909b"
+        },
+        {
+          "href": "/ssh-keys/e4174827-1319-4773-bea4-98e565286c3a"
+        },
+        {
+          "href": "/ssh-keys/a756e6c7-7787-4524-aaa6-aacfc4393b93"
+        },
+        {
+          "href": "/ssh-keys/228dd4a2-70d7-42d2-8bb1-e5ba3b2631ff"
+        },
+        {
+          "href": "/ssh-keys/c66eebb3-0a6a-4b1d-8630-126c24a47720"
+        },
+        {
+          "href": "/ssh-keys/9d5dec9f-cbd2-4e4f-a004-9adce7b21ad2"
+        },
+        {
+          "href": "/ssh-keys/3e414187-8f69-4c33-80ec-64703b7a64ac"
+        },
+        {
+          "href": "/ssh-keys/7a9b1bf9-78b2-43ef-bc3e-1afe315f4fcd"
+        },
+        {
+          "href": "/ssh-keys/bbb232f7-13aa-4238-950e-99f7b3073dda"
+        },
+        {
+          "href": "/ssh-keys/f521e117-b21c-465e-9054-81f46641f6e8"
+        },
+        {
+          "href": "/ssh-keys/e6cf0313-6e94-4e50-9460-df03c2de4771"
+        },
+        {
+          "href": "/ssh-keys/37a96e9b-4a31-48d2-9cdf-95bd1be3bd3c"
+        },
+        {
+          "href": "/ssh-keys/4a45c068-0782-446a-bf2c-7bf8c85ce817"
+        },
+        {
+          "href": "/ssh-keys/0ece23cb-aedb-4bb9-b2ba-97523d85a4c6"
+        },
+        {
+          "href": "/ssh-keys/006798a3-5a04-409b-9afe-e37f1c2aa861"
+        },
+        {
+          "href": "/ssh-keys/be63b83f-0741-45e2-bbc0-377de840395a"
+        },
+        {
+          "href": "/ssh-keys/74243aa3-88ce-4f5b-b24b-5d11e32f65c7"
+        },
+        {
+          "href": "/ssh-keys/cf56d34b-4e77-4237-8f87-9844926f9e0f"
+        },
+        {
+          "href": "/ssh-keys/d0f68d65-0eb8-4cc7-b931-1b8b9e73819e"
+        },
+        {
+          "href": "/ssh-keys/d481af84-5e80-495b-9b12-ceeebd0ceb51"
+        },
+        {
+          "href": "/ssh-keys/546350ab-560c-4079-89b3-b53c7c5e6601"
+        },
+        {
+          "href": "/ssh-keys/572d301b-9869-4c1d-a5c1-7abffc27021e"
+        },
+        {
+          "href": "/ssh-keys/50f8bb94-1d84-4323-b0a0-9de6adf8193d"
+        }
+      ],
+      "project_lite": {
+        "href": "/projects/ca73364c-6023-4935-9137-2132e73c20b4"
+      },
+      "volumes": [],
+      "ip_addresses": [
+        {
+          "id": "d7208675-5f0f-4483-b342-bf52f630a927",
+          "address_family": 4,
+          "netmask": "255.255.255.254",
+          "created_at": "2019-01-15T12:47:20Z",
+          "details": null,
+          "public": true,
+          "cidr": 31,
+          "management": true,
+          "manageable": true,
+          "enabled": true,
+          "global_ip": null,
+          "customdata": {},
+          "project": {},
+          "project_lite": {},
+          "facility": {
+            "id": "2b70eb8f-fa18-47c0-aba7-222a842362fd",
+            "name": "Sunnyvale, CA",
+            "code": "sjc1",
+            "features": [
+              "baremetal",
+              "storage",
+              "layer_2",
+              "global_ipv4",
+              "backend_transfer"
+            ],
+            "address": {
+              "href": "#9dba11a6-0a26-4993-901b-df253713b89e"
+            },
+            "ip_ranges": [
+              "2604:1380:1000::/36",
+              "147.75.200.0/22",
+              "147.75.108.0/22",
+              "147.75.68.0/22",
+              "147.75.88.0/22"
+            ]
+          },
+          "assigned_to": {
+            "href": "/devices/3195df4f-d1c9-4171-a1aa-378456d341ee"
+          },
+          "interface": {
+            "href": "/ports/28ba80b0-9da7-473a-972b-ce56a6f0b58e"
+          },
+          "network": "147.75.108.42",
+          "address": "147.75.108.43",
+          "gateway": "147.75.108.42",
+          "href": "/ips/d7208675-5f0f-4483-b342-bf52f630a927"
+        },
+        {
+          "id": "6d1bf1ed-316e-4133-a735-475d5f2fbab6",
+          "address_family": 6,
+          "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:fffe",
+          "created_at": "2019-01-15T12:47:20Z",
+          "details": null,
+          "public": true,
+          "cidr": 127,
+          "management": true,
+          "manageable": true,
+          "enabled": true,
+          "global_ip": null,
+          "customdata": {},
+          "project": {},
+          "project_lite": {},
+          "facility": {
+            "id": "2b70eb8f-fa18-47c0-aba7-222a842362fd",
+            "name": "Sunnyvale, CA",
+            "code": "sjc1",
+            "features": [
+              "baremetal",
+              "storage",
+              "layer_2",
+              "global_ipv4",
+              "backend_transfer"
+            ],
+            "address": {
+              "href": "#9dba11a6-0a26-4993-901b-df253713b89e"
+            },
+            "ip_ranges": [
+              "2604:1380:1000::/36",
+              "147.75.200.0/22",
+              "147.75.108.0/22",
+              "147.75.68.0/22",
+              "147.75.88.0/22"
+            ]
+          },
+          "assigned_to": {
+            "href": "/devices/3195df4f-d1c9-4171-a1aa-378456d341ee"
+          },
+          "interface": {
+            "href": "/ports/28ba80b0-9da7-473a-972b-ce56a6f0b58e"
+          },
+          "network": "2604:1380:1000:b00::2",
+          "address": "2604:1380:1000:b00::3",
+          "gateway": "2604:1380:1000:b00::2",
+          "href": "/ips/6d1bf1ed-316e-4133-a735-475d5f2fbab6"
+        },
+        {
+          "id": "1cbc7845-9cf8-4e3b-b148-ad4816473b96",
+          "address_family": 4,
+          "netmask": "255.255.255.254",
+          "created_at": "2019-01-15T12:47:20Z",
+          "details": null,
+          "public": false,
+          "cidr": 31,
+          "management": true,
+          "manageable": true,
+          "enabled": true,
+          "global_ip": null,
+          "customdata": {},
+          "project": {},
+          "project_lite": {},
+          "facility": {
+            "id": "2b70eb8f-fa18-47c0-aba7-222a842362fd",
+            "name": "Sunnyvale, CA",
+            "code": "sjc1",
+            "features": [
+              "baremetal",
+              "storage",
+              "layer_2",
+              "global_ipv4",
+              "backend_transfer"
+            ],
+            "address": {
+              "href": "#9dba11a6-0a26-4993-901b-df253713b89e"
+            },
+            "ip_ranges": [
+              "2604:1380:1000::/36",
+              "147.75.200.0/22",
+              "147.75.108.0/22",
+              "147.75.68.0/22",
+              "147.75.88.0/22"
+            ]
+          },
+          "assigned_to": {
+            "href": "/devices/3195df4f-d1c9-4171-a1aa-378456d341ee"
+          },
+          "interface": {
+            "href": "/ports/28ba80b0-9da7-473a-972b-ce56a6f0b58e"
+          },
+          "network": "10.88.4.130",
+          "address": "10.88.4.131",
+          "gateway": "10.88.4.130",
+          "href": "/ips/1cbc7845-9cf8-4e3b-b148-ad4816473b96"
+        }
+      ],
+      "plan": {
+        "id": "e69c0169-4726-46ea-98f1-939c9e8a3607",
+        "slug": "t1.small.x86",
+        "name": "t1.small.x86",
+        "description": "Our Type 0 configuration is a general use \"cloud killer\" server, with a Intel Atom 2.4Ghz processor and 8GB of RAM.",
+        "line": "baremetal",
+        "specs": {
+          "cpus": [
+            {
+              "count": 1,
+              "type": "Intel Atom C2550 @ 2.4Ghz"
+            }
+          ],
+          "memory": {
+            "total": "8GB"
+          },
+          "drives": [
+            {
+              "count": 1,
+              "size": "80GB",
+              "type": "SSD"
+            }
+          ],
+          "nics": [
+            {
+              "count": 2,
+              "type": "1Gbps"
+            }
+          ],
+          "features": {
+            "raid": false,
+            "txt": true
+          }
+        },
+        "legacy": false,
+        "deployment_types": [
+          "on_demand",
+          "spot_market"
+        ],
+        "available_in": [
+          {
+            "href": "/facilities/2b70eb8f-fa18-47c0-aba7-222a842362fd"
+          },
+          {
+            "href": "/facilities/e1e9c52e-a0bc-4117-b996-0fc94843ea09"
+          },
+          {
+            "href": "/facilities/8ea03255-89f9-4e62-9d3f-8817db82ceed"
+          },
+          {
+            "href": "/facilities/8e6470b3-b75e-47d1-bb93-45b225750975"
+          }
+        ],
+        "class": "t1.small.x86",
+        "pricing": {
+          "hour": 0.07
+        }
+      },
+      "userdata": "",
+      "root_password": "S48)b5aPa-",
+      "switch_uuid": "4c9d41c5",
+      "network_ports": [
+        {
+          "id": "28ba80b0-9da7-473a-972b-ce56a6f0b58e",
+          "type": "NetworkBondPort",
+          "name": "bond0",
+          "data": {
+            "bonded": true
+          },
+          "network_type": "layer2-bonded",
+          "native_virtual_network": null,
+          "hardware": {
+            "href": "/hardware/15fc452a-a24e-4c99-ab32-b2089af436af"
+          },
+          "virtual_networks": [],
+          "connected_port": null,
+          "href": "/ports/28ba80b0-9da7-473a-972b-ce56a6f0b58e"
+        },
+        {
+          "id": "c691cd89-ac91-4375-a708-0b79135b4dfb",
+          "type": "NetworkPort",
+          "name": "eth0",
+          "data": {
+            "bonded": true,
+            "mac": "0c:c4:7a:54:06:84"
+          },
+          "bond": {
+            "id": "28ba80b0-9da7-473a-972b-ce56a6f0b58e",
+            "name": "bond0"
+          },
+          "native_virtual_network": null,
+          "hardware": {
+            "href": "/hardware/15fc452a-a24e-4c99-ab32-b2089af436af"
+          },
+          "virtual_networks": [],
+          "connected_port": {
+            "href": "/ports/943dba5b-47a1-4841-8e68-a9659b88b85e"
+          },
+          "href": "/ports/c691cd89-ac91-4375-a708-0b79135b4dfb"
+        },
+        {
+          "id": "e0011505-24f5-4417-b560-695edee03475",
+          "type": "NetworkPort",
+          "name": "eth1",
+          "data": {
+            "bonded": true,
+            "mac": "0c:c4:7a:54:06:85"
+          },
+          "bond": {
+            "id": "28ba80b0-9da7-473a-972b-ce56a6f0b58e",
+            "name": "bond0"
+          },
+          "native_virtual_network": null,
+          "hardware": {
+            "href": "/hardware/15fc452a-a24e-4c99-ab32-b2089af436af"
+          },
+          "virtual_networks": [],
+          "connected_port": {
+            "href": "/ports/6b06a25e-4fc6-421d-8cd8-1b5a4fd0e572"
+          },
+          "href": "/ports/e0011505-24f5-4417-b560-695edee03475"
+        }
+      ],
+      "href": "/devices/3195df4f-d1c9-4171-a1aa-378456d341ee"
+    }
+  ]
+}
