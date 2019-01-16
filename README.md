@@ -19,14 +19,14 @@ My objective here is to provide simplified api structure to be consumed by the c
 2. Run `bundle exec rake graphql:schema:dump` to define and dump graphql schema (when necessary).
 3. Run `rails s` to start development server.
 4. Open the client to your browser via `http://localhost:3000/graphiql` to access graphiql web interface
-5. To add authentication token add `x_app_id` parameter in the request url (http://localhost:3000/graphiql?x_app_id=api_key_here)
+5. To add authentication token add `x_app_id` parameter in the request url (http://localhost:3000/graphiql?x_app_id=api_key_here) (only on development mode)
 
 deployed in - [Heroku](https://packet-graphql.herokuapp.com/)
 
 ### Accessing Using Curl
 
 ```
-curl -v -H "X-APP-ID: mL9FBLxgyW4GNzRu5V8A3MWwjQx9AndH" -H "Content-Type: application/json" -d '{"query":"query { operatingSystems() { edges { node { slug } } } }"}' http://localhost:3002/graphql | json_pp
+curl -v -H "X-APP-ID: API_TOKEN_HERE" -H "Content-Type: application/json" -d '{"query":"query { operatingSystems() { edges { node { slug } } } }"}' https://packet-graphql.herokuapp.com//graphql | json_pp
 
 ```
 
